@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Wood Creations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Functional Wood Creations</h1>
+        <p>Handcrafted wood pieces that combine functionality with beauty</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h2>Welcome to Functional Wood Creations</h2>
+        <p>Explore our range of handcrafted, sustainable, and functional wood pieces perfect for any space.</p>
+        <p>Each piece is made with precision and care, bringing the beauty of natural wood into your home.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="images/item1.jpg" alt="Wood Creation 1"></div>
+            <div class="gallery-item"><img src="images/item2.jpg" alt="Wood Creation 2"></div>
+            <div class="gallery-item"><img src="images/item3.jpg" alt="Wood Creation 3"></div>
+            <div class="gallery-item"><img src="images/item4.jpg" alt="Wood Creation 4"></div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Functional Wood Creations. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
