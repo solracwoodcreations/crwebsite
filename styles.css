@@ -12,9 +12,11 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: center
     background: #8c6f56;
     color: #fff;
-    text-align: center;
+    width: 100%;
     padding: 2rem 0;
 }
 
@@ -33,7 +35,7 @@ nav a {
     right: 10px
     color: #fff;
     text-decoration: none;
-    margin: 0 1rem;
+    
     font-weight: bold;
 }
 
